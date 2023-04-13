@@ -47,7 +47,7 @@ export default function Url() {
                 <p>{data.works[worksIndex].description}</p>
                 {data.works[worksIndex].links.map((value, index) => (
                   <div key={index}>
-                    <a href={value.url} className="link-primary" target="_blank">{value.text}</a>
+                    <a href={value.url} className="link-primary" target="_blank" rel="noreferrer noopener">{value.text}</a>
                   </div>
                 ))}
               </div>
