@@ -1,0 +1,397 @@
+{
+  "works": [
+    {
+      "url": "db",
+      "img": "/db/db.png",
+      "gallery": [
+        "/db/db2.png",
+        "/db/db3.png",
+        "/db/db4.png",
+        "/db/db5.png"
+      ],
+      "title": "データベースシステムの作成",
+      "description": "データベースの授業での期末課題として制作しました。鉄道の利用者情報を記録することが出来るデータベースシステムです。CRUDの機能があります。CakePHPというフレームワークを使うことで、WEB画面の実装を簡単にし、データベースの設計に集中しました。データベースの設計はSQL文を用いて行いました。データベースの正規化や10個以上のテーブルから成るビュー表の作成がとても難しかったです。",
+      "links": [],
+      "skills": [
+        "MySQL",
+        "PHP",
+        "Apache",
+        "XAMPP",
+        "CakePHP"
+      ],
+      "date": "3年生前期制作",
+      "type": "授業制作",
+      "typeStyle": "badge bg-success"
+    },
+    {
+      "url": "apc",
+      "img": "/apc/apc.png",
+      "gallery": [
+        "/apc/apc2.png",
+        "/apc/apc3.png"
+      ],
+      "title": "リアルタイム相互単位換算アプリの作成",
+      "description": "ロードバイクのタイヤに空気を入れるとき、「タイヤに表記されている指定空気圧の単位はPSIなのに空気入れの目盛りはBarなのでいちいち計算がめんどくさい」という問題を解決するために制作しました。一般的な単位換算アプリは「数値を入力」→「計算実行ボタン押下」という2アクションが必要になります。また、換算対象を逆にするときも単位を入れ替える操作が必要になります。しかし、このアプリは数値を入力中もリアルタイムに換算結果を見ることが可能で、結果表示欄兼入力欄となっているため相互に変換が可能です。これを実現するためにReactのstateのリフトアップを使用しました。このアプリを作成してから、ロードバイクの空気入れの時は毎回使っています。",
+      "links": [
+        {
+          "text": "リアルタイム相互単位換算アプリ",
+          "url": "https://penguinspizza.github.io/air-pressure-converter/"
+        },
+        {
+          "text": "GitHubリポジトリ",
+          "url": "https://github.com/penguinspizza/air-pressure-converter"
+        }
+      ],
+      "skills": [
+        "React",
+        "HTML",
+        "CSS",
+        "Bootstrap"
+      ],
+      "date": "2年生後期制作",
+      "type": "自主制作",
+      "typeStyle": "badge bg-danger"
+    },
+    {
+      "url": "nbu-web",
+      "img": "/nbu-web/nbu-web.png",
+      "gallery": [
+        "/nbu-web/nbu-web2.png",
+        "/nbu-web/nbu-web3.png"
+      ],
+      "title": "大学動画紹介Webページの作成",
+      "description": "大学の紹介動画を掲載するWebページの制作を依頼され、チームで制作しました。私は主に全体のデザインとコーディングを担当しました。企画者やコンテンツの制作者、大学側など多くの人と関わる中で制作を進めるのがとても大変でした。デザインで工夫した点は背景を動画にしたところです。このプロジェクトのコンセプトに合うようにしました。また、ロゴの制作も担当しました。",
+      "links": [
+        {
+          "text": "トップページ｜動画でわかる名古屋文理大学",
+          "url": "https://www.nagoya-bunri.ac.jp/~mediadept/"
+        }
+      ],
+      "skills": [
+        "HTML",
+        "CSS",
+        "Bootstrap"
+      ],
+      "date": "2年生後期制作",
+      "type": "依頼制作",
+      "typeStyle": "badge bg-warning text-dark"
+    },
+    {
+      "url": "satoyama-da",
+      "img": "/satoyama-da/satoyama-da.png",
+      "gallery": [
+        "/satoyama-da/satoyama-da2.png",
+        "/satoyama-da/satoyama-da3.png"
+      ],
+      "title": "里山田文集公式HPの作成",
+      "description": "「林業従事者が自ら、林業の現場と田舎暮らしのリアルを書籍を通して社会に伝える」というプロジェクトを父が始めたので、そのプロジェクトの公式ホームページを作成しました。難しかった点はヒアリングです。いくら父親といえども、年齢も離れているし知識領域も異なるので専門知識を分かりやすく伝えるのが難しく、「どのような情報を載せるか」、「どのようなデザインやUIにするか」など細かい点を決定していくのが大変でした。ホスティングサービスはFirebaseを使用しています。今後もプロジェクトの進行に合わせてホームページも更新していく予定です。WordPressなどを使ったブログシステムの導入も検討しています。",
+      "links": [
+        {
+          "text": "トップページ｜里山田文集",
+          "url": "https://satoyama-da.web.app/"
+        }
+      ],
+      "skills": [
+        "HTML",
+        "CSS",
+        "Bootstrap",
+        "Firebase"
+      ],
+      "date": "3年生後期制作",
+      "type": "依頼制作",
+      "typeStyle": "badge bg-warning text-dark"
+    },
+    {
+      "url": "logo",
+      "img": "/logo/logo.png",
+      "gallery": [
+        "/logo/logo2.png",
+        "/logo/logo3.png"
+      ],
+      "title": "ロゴマークの作成",
+      "description": "父のプロジェクトである里山田文集と里山田林業のロゴを作成しました。斧（おの、よき）という木を切る為の道具があり、その刃には3本の線と4本の線が刻まれています。3本の線は「ミキ」で「神酒」を表しています。4本の線は「ヨキ」で「四気」を表しています。四気とは、太陽・土・水・空気のことで木を育てるために必要な要素のことです。それらを各ロゴに落とし込みました。里山田文集の方のロゴには、ミキの方を本棚に、ヨキの方は色を付けて四気を分かりやすく表現しました。里山田林業の方のロゴにはミキとヨキを木の葉に見立てて、その木をくさびで切り倒すところをイメージしました。",
+      "links": [],
+      "skills": [
+        "Windowsペイント等"
+      ],
+      "date": "3年生前期制作",
+      "type": "依頼制作",
+      "typeStyle": "badge bg-warning text-dark"
+    },
+    {
+      "url": "article",
+      "img": "/article/article.png",
+      "gallery": [],
+      "title": "技術系記事執筆",
+      "description": "アプリケーションを開発するなかで、躓いたことろやおすすめしたいやり方などを記事にして投稿しています。自分が躓いたところで他の人が躓いてほしくないと思ったことや、開発をするときによく他の方の記事を参考にしているので、自分も誰かの役に立ちたいと思って始めました。記事を書くことで、理解も深まるし、備忘録にもなるので始めて良かったと思いました。これからも続けていきます。",
+      "links": [
+        {
+          "text": "Raspberry PiにSoftEther VPNをインストールしてVPNクライアントからVPNサーバー自身にアクセスする",
+          "url": "https://qiita.com/penguinspizza/items/ac23c0d92ff85248440e"
+        },
+        {
+          "text": "M1 MacでFlutterシンプル環境構築",
+          "url": "https://penguinspizza.hatenablog.com/entry/2021/05/16/050932"
+        }
+      ],
+      "skills": [
+        "Qiita等"
+      ],
+      "date": "随時",
+      "type": "自主的に執筆",
+      "typeStyle": "badge bg-danger"
+    },
+    {
+      "url": "sa",
+      "img": "/sa/sa.jfif",
+      "gallery": [],
+      "title": "SA（スチューデントアシスタント）・オープンキャンパススタッフ",
+      "description": "SAとオープンキャンパススタッフを担当しました。SAでは、Excel VBAの演習を行う授業で受講生の補助をしました。ただ授業に遅れないように補助するのではなく、継続的に力がつくように、授業内容について図を描きながら分かりやすく説明するようにしました。SAを通して自分もVBAについての理解が深まりました。オープンキャンパススタッフでは、高校生に向けてのJavaを使った模擬授業の補助をしました。オープンキャンパスでは、高校生に楽しんでもらえるようにそれぞれの高校生の興味のありそうな話に広げながら面白く教えるのを心がけました。",
+      "links": [],
+      "skills": [
+        "VBA",
+        "Java"
+      ],
+      "date": "2年生～3年生",
+      "type": "SA",
+      "typeStyle": "badge bg-info text-dark"
+    },
+    {
+      "url": "taion",
+      "img": "/taionMemoApp/taionMemoApp.png",
+      "gallery": [
+        "/taionMemoApp/taionMemoApp2.png",
+        "/taionMemoApp/taionMemoApp3.png",
+        "/taionMemoApp/taionMemoApp4.png",
+        "/taionMemoApp/taionMemoApp5.png"
+      ],
+      "title": "体温記録アプリの作成",
+      "description": "新型コロナウイルス感染拡大の影響で、体温を記録して大学に提出する必要があったので自分用に制作しました。制作するにあたって重視した点は、素早く記録できることです。そのため、キーボードで数値を入力することなく「ラジオボタンで体温を選択」→「送信ボタンを押下」の2クリックで記録が出来ます。体温はGoogleスプレッドシートに記録されます。Googleスプレッドシートを共有すれば体温の記録・集計が簡単にできます。",
+      "links": [],
+      "skills": [
+        "Google Apps Script",
+        "HTML",
+        "CSS"
+      ],
+      "date": "1年生後期制作",
+      "type": "自主制作",
+      "typeStyle": "badge bg-danger"
+    },
+    {
+      "url": "gps",
+      "img": "/gps/gps.webp",
+      "gallery": [
+        "/gps/gps2.webp",
+        "/gps/gps3.png",
+        "/gps/gps4.webp"
+      ],
+      "title": "GPSスピードメーターの作成",
+      "description": "Raspberry PiにGPS受信モジュールを接続して、スピードメーターを作りました。難しかった点は、GPSモジュールを扱うライブラリの情報が英語で書かれていたので、理解するのが大変でした。GPSで測位した位置情報を記録するGPSロガーも作りました。また、温度・湿度・気圧センサーも接続し、カラーディスプレイに表示しました。時刻の情報は、GPSモジュールから正確な時間情報を取得して表示しています。",
+      "links": [],
+      "skills": [
+        "Python",
+        "Raspberry Pi"
+      ],
+      "date": "3年生後期制作",
+      "type": "自主制作",
+      "typeStyle": "badge bg-danger"
+    },
+    {
+      "url": "shooting",
+      "img": "/shooting/shooting.png",
+      "gallery": [
+        "/shooting/shooting2.png",
+        "/shooting/shooting3.png",
+        "/shooting/shooting4.png",
+        "/shooting/shooting5.png",
+        "/shooting/shooting6.png"
+      ],
+      "title": "シューティングゲームの作成",
+      "description": "オブジェクト指向の授業での期末課題として作成しました。難しかった点は、それぞれのクラスにどのような機能を持たせるかを考えるところです。色を塗るクラスや衝突判定をするクラスなど細かい機能ごとにクラス分けし、プレイヤークラスや敵クラスに継承することで保守性の高いコードを書くことが出来ました。オブジェクト指向の便利さを実感することが出来ました。",
+      "links": [
+        {
+          "text": "GitHubリポジトリ",
+          "url": "https://github.com/penguinspizza/shooting"
+        }
+      ],
+      "skills": [
+        "Java",
+        "Processing"
+      ],
+      "date": "3年生前期制作",
+      "type": "授業制作",
+      "typeStyle": "badge bg-success"
+    },
+    {
+      "url": "animed",
+      "img": "/animed/animed.jpeg",
+      "gallery": [],
+      "title": "写真を絵画風に加工",
+      "description": "OpenCVを使って画像処理を行いました。まず、写真をグレースケールにし、コントラストの差が激しい部分を輪郭線として抽出することで、絵画風に加工しています。",
+      "links": [],
+      "skills": [
+        "Python",
+        "OpenCV"
+      ],
+      "date": "1年生前期制作",
+      "type": "自主制作",
+      "typeStyle": "badge bg-danger"
+    },
+    {
+      "url": "portfolio",
+      "img": "/portfolio/portfolio.png",
+      "gallery": [
+        "/portfolio/portfolio2.png",
+        "/portfolio/portfolio3.png"
+      ],
+      "title": "ポートフォリオの作成",
+      "description": "Next.jsを使ってポートフォリオサイトを作りました。複数ページに渡るWebサイトを普通にHTMLとCSSだけで書くとコードが冗長になってしまいます。そこで、Next.jsを使いました。Next.jsを使うことで効率的にコーディングができ、保守性も高めることが出来ました。画像のパスや文章などのコンテンツはJSONファイルにまとめて記述してあります。そのJSONファイルをフェッチしてWeb上に表示しています。今後はWeb上からコンテンツの追加・編集・削除も出来るように改良していきたいです。",
+      "links": [
+        {
+          "text": "GitHubリポジトリ",
+          "url": "https://github.com/penguinspizza/portfolio"
+        }
+      ],
+      "skills": [
+        "Next.js",
+        "Bootstrap"
+      ],
+      "date": "3年生後期制作",
+      "type": "自主制作",
+      "typeStyle": "badge bg-danger"
+    },
+    {
+      "url": "dvd",
+      "img": "/dvd/dvd.png",
+      "gallery": [
+        "/dvd/dvd2.png"
+      ],
+      "title": "DVDスクリーンセーバーを再現",
+      "description": "DVDプレイヤーのスクリーンセーバーをWEB上で再現しました。ただ再現するだけでは面白くないので、DVDの数を増やせるようにしました。各DVDが四隅に当たって跳ね返るたびにDVDの数が1つ増えます。理論上は時間軸に対して指数関数的にDVDの数が増えます。しかし、実際には単位時間当たりに増やせるDVDの数は、CPUのシングルコア性能に依存します。よって、ベンチマークとして利用することができます。",
+      "links": [
+        {
+          "text": "DVDを増やせるサイト",
+          "url": "https://penguinspizza.github.io/dvd/"
+        },
+        {
+          "text": "GitHubリポジトリ",
+          "url": "https://github.com/penguinspizza/dvd"
+        }
+      ],
+      "skills": [
+        "JavaScript",
+        "HTML",
+        "CSS",
+        "Bootstrap"
+      ],
+      "date": "2年生後期制作",
+      "type": "自主制作",
+      "typeStyle": "badge bg-danger"
+    },
+    {
+      "url": "breakout",
+      "img": "/breakout/breakout.png",
+      "gallery": [
+        "/breakout/breakout2.png",
+        "/breakout/breakout3.png"
+      ],
+      "title": "4面ブロック崩しゲームの作成",
+      "description": "2年生のゼミにてJavaScriptを学んだ成果として作成しました。普通のブロック崩しは下のバーだけを動かしてプレイしますが、このブロック崩しは上下左右がバーになっています。さらに、バーの長さがボールを落とすごとに小さくなっていきます。ボールの速度もボールを落とすごとに早くなっていきます。下記リンクにて実際にプレイすることが出来ます。",
+      "links": [
+        {
+          "text": "4面ブロック崩し",
+          "url": "https://penguinspizza.github.io/breakout/"
+        },
+        {
+          "text": "GitHubリポジトリ",
+          "url": "https://github.com/penguinspizza/breakout"
+        }
+      ],
+      "skills": [
+        "JavaScript",
+        "HTML",
+        "CSS"
+      ],
+      "date": "2年生前期制作",
+      "type": "ゼミ制作",
+      "typeStyle": "badge bg-success"
+    },
+    {
+      "url": "raspiclock",
+      "img": "/raspiclock/raspiclock.jfif",
+      "gallery": [],
+      "title": "アナログ表示時計の作成",
+      "description": "アナログ時計が欲しかったので作りました。時刻はの設定は、インターネットに繋がっているRaspberry Piのシステム時刻を取得して表示しているので不要です。温度・湿度・気圧センサーを接続して、それらの情報も表示しています。",
+      "links": [],
+      "skills": [
+        "Python",
+        "Raspberry Pi"
+      ],
+      "date": "3年生後期制作",
+      "type": "自主制作",
+      "typeStyle": "badge bg-danger"
+    },
+    {
+      "url": "shot",
+      "img": "/shot/shot.png",
+      "gallery": [],
+      "title": "遠隔輪ゴム発射装置の作成",
+      "description": "ESP32に接続されたサーボモーターをWiFiネットワーク経由で操作することで、輪ゴムを発射できる装置です。ESP32でWebサーバーを動作させています。Webサーバーへのリクエストに応じてサーボモーターを制御しています。",
+      "links": [],
+      "skills": [
+        "C言語",
+        "ESP32"
+      ],
+      "date": "3年生前期制作",
+      "type": "自主制作",
+      "typeStyle": "badge bg-danger"
+    },
+    {
+      "url": "js-calc",
+      "img": "/js-calc/js-calc.jfif",
+      "gallery": [
+        "/js-calc/js-calc2.jfif",
+        "/js-calc/js-calc3.jfif",
+        "/js-calc/js-calc4.jfif"
+      ],
+      "title": "JavaScript電卓の作成",
+      "description": "JavaScriptのコードで式を立てて計算できるWebアプリを作りました。for文から再帰関数、クラスまでなんでも使えます。改善点としては、alertなどのコードなども実行出来てしまうので、悪意のあるコードを実行されないように式に関係のないコードを実行できないようにしたいです。",
+      "links": [
+        {
+          "text": "JavaScript電卓",
+          "url": "https://js-calc-for-vercel.vercel.app/"
+        },
+        {
+          "text": "GitHubリポジトリ",
+          "url": "https://github.com/penguinspizza/js-calc-for-vercel"
+        }
+      ],
+      "skills": [
+        "Next.js",
+        "Bootstrap"
+      ],
+      "date": "2年生後期制作",
+      "type": "自主制作",
+      "typeStyle": "badge bg-danger"
+    },
+    {
+      "url": "gyousei",
+      "img": "/gyousei/gyousei.jfif",
+      "gallery": [
+        "/gyousei/gyousei2.jfif",
+        "/gyousei/gyousei3.jfif",
+        "/gyousei/gyousei4.jfif"
+      ],
+      "title": "行政書士法施行70周年記念式典用動画制作",
+      "description": "行政書士法施行70周年記念式典で再生する、行政書士の活躍を紹介する動画の制作をチームで行いました。撮影から編集まで様々な工程があり、大変貴重な経験になりました。また、チームで動画を制作するときに必要な絵コンテの作成など、様々な技術が身に付きました。半年以上に及ぶプロジェクトでしたが、無事に完成した時にはとても達成感がありました。",
+      "links": [],
+      "skills": [
+        "Adobe Premiere Pro",
+        "ビデオカメラ"
+      ],
+      "date": "2年生",
+      "type": "",
+      "typeStyle": "badge bg-danger"
+    }
+  ]
+}
