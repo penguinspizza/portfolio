@@ -3,7 +3,7 @@ import Layout from '../components/layout'
 export default function About() {
   return (
     <div>
-      <Layout title="About | Keito Yamada's Portfolio" isFixedFooter={false}>
+      <Layout title="About | Keito Yamada&#39;s Portfolio" isFixedFooter={false}>
         <div className="card mt-3 mb-3">
           <div className="card-body">
             <h2 className="card-title">山田 啓徒</h2>

@@ -9,7 +9,7 @@ export default function Works() {
   const { data } = useSWR('/data.json', fetcher)
 
   return (
-    <Layout title="Works | Keito Yamada's Portfolio" isFixedFooter={false}>
+    <Layout title="Works | Keito Yamada&#39;s Portfolio" isFixedFooter={false}>
       <div className="row row-cols-1 row-cols-md-2 row-cols-xl-3 g-4 mt-0 mb-4">
         {
           data != undefined

@@ -4,9 +4,9 @@ import Link from 'next/link'
 export default function Index() {
   return (
     <div>
-      <Layout title="Home | Keito Yamada's Portfolio" isFixedFooter={true}>
+      <Layout title="Home | Keito Yamada&#39;s Portfolio" isFixedFooter={true}>
         <div>
-          <h1 className='text-center m-4'>Keito Yamada's Portfolio</h1>
+          <h1 className='text-center m-4'>Keito Yamada&#39;s Portfolio</h1>
           <div className="row row-cols-1 row-cols-md-3 g-4 m-4">
             <div className='col text-center'>
               <Link href="/about">

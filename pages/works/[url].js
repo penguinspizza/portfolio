@@ -26,7 +26,7 @@ export default function Url() {
       {
         data != undefined
           ?
-          <Layout title={data.works[worksIndex].title + " | I am Yamada Keito."}>
+          <Layout title={data.works[worksIndex].title + " | Keito Yamada&#39;s Portfolio"}>
             <div className="card border-0 d-inline-flex">
               <div className="card-body">
                 <h1 className="card-title">{data.works[worksIndex].title}</h1>
@@ -61,7 +61,7 @@ export default function Url() {
             </div>
           </Layout>
           :
-          <Layout title={"NOW LOADING... | I am Yamada Keito."}>
+          <Layout title={"NOW LOADING... | Keito Yamada&#39;s Portfolio"}>
             <h1>NOW LOADING...</h1>
           </Layout>
       }

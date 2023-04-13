@@ -31,7 +31,7 @@ export default function Skill() {
   ]
 
   return (
-    <Layout title="Skill | Keito Yamada's Portfolio" isFixedFooter={false}>
+    <Layout title="Skill | Keito Yamada&#39;s Portfolio" isFixedFooter={false}>
       {skills.map((value, index) => (
         <SkillElement key={index} title={value.title} per={value.per} description={value.description} />
       ))}
